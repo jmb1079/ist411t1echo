@@ -2,7 +2,7 @@
 Project: Lab 1 - Group
 Purpose Details: Client-Server echo application
 Course: IST 411
-Author: Ryan Urbanski, Albana Beqo, James Bristow II, Michael Pratt
+Author: Ryan Urbanski, Albana Beqo, James Bristow II, Logan Pratt, Fred Aaron
 Date Developed: 1/25/2020
 Last Date Changed:1/26/2020
 Revision: 1
