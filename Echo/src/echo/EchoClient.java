@@ -5,7 +5,7 @@ Course: IST 411
 Author: Ryan Urbanski, Albana Beqo, James Bristow II, Logan Pratt, Fred Aaron
 Date Developed: 1/25/2020
 Last Date Changed:1/26/2020
-Revision: 1
+Revision: 2
 */
 
 package echo;
@@ -55,7 +55,6 @@ public class EchoClient {
                     String response = br.readLine();
                     System.out.println("Server response: " + response);
                 }
-                
             }
             catch (IOException ex) {
                 ex.printStackTrace();

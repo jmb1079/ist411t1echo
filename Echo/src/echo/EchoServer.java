@@ -5,7 +5,7 @@ Course: IST 411
 Author: Ryan Urbanski, Albana Beqo, James Bristow II, Logan Pratt, Fred Aaron
 Date Developed: 1/25/2020
 Last Date Changed:1/26/2020
-Revision: 1
+Revision: 2
 */
 
 package echo;
@@ -31,8 +31,7 @@ public class EchoServer {
         try (ServerSocket serverSocket = new ServerSocket(6000)) {
             System.out.println("Waitining for a connection from a client...");
             Socket clientSocket = serverSocket.accept();
-            System.out.println("Successfully onnected to client.");
-            
+            System.out.println("Successfully connected to client.");
             
             // Reply to the clients request
             try (BufferedReader br = new BufferedReader(
@@ -47,7 +46,6 @@ public class EchoServer {
                         System.out.println("Server: " + inputLine);
                         out.println(inputLine);
                     }
-                    
             }
             catch (IOException ex) {
                 ex.printStackTrace();
